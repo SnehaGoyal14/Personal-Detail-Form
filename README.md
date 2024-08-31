@@ -13,7 +13,7 @@ This project is a simple HTML form designed to collect personal details. The for
 
 ## Technologies Used
 
-- **HTML**: Markup language for structuring the form.
+- **HTML**: Markup language for structuring the form. 
 - **CSS**: Styling for the form and its elements.
 - **Google Fonts**: Uses the 'Josefin Sans' font for improved typography.
 
