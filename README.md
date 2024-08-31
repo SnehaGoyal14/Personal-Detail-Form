@@ -19,10 +19,8 @@ This project is a simple HTML form designed to collect personal details. The for
 
 ## Screenshots 📸
 
-
-## Live Demo 🌐
-
 <img width="1440" alt="Screenshot 2024-09-01 at 2 14 14 AM" src="https://github.com/user-attachments/assets/79da0400-2f3c-4f5a-8931-6929399b5087">
 
+## Live Demo 🌐
 
 Check out the live demo here: [Personal Detail Form](https://snehaform.netlify.app/) 
