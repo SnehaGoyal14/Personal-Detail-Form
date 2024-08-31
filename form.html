@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<body class="body">
+    <div class="container">
+        <form action="">
+            <h1>Personal Details</h1>
+            <h2>Tell us something more about yourself</h2> 
+            <hr class="hr_1">
+            <br>
+            <p> Name </p>
+            <input type="text" name="name" required placeholder=" Full Name" class="name_1">
+            <br>
+            <br>
+            <br>
+        <legend>Gender</legend>
+             <p>
+            Male <input type="radio" name="gender" id="male" required>
+            Female <input type="radio" name="gender" id="female" requireds>
+             </p>
+             <br>
+        <P> Date of Birth</P>
+        <input type="date" class="dob" placeholder="dd/mm/yyyy">
+        <br>
+        <br>
+        <p>Father's Details</p>
+        <input type="text" placeholder="Father's Name" class="father">
+        <input type="text" placeholder="Father's Occupation" class="father">
+        <input type="text" placeholder="Father's Office Address" class="father">
+        <input type="text" placeholder="Annual Income" class="father">
+        <br>
+        <br>
+        <p>Mother's Details</p>
+        <input type="text" placeholder="Mother's Name" class="mother">
+        <input type="text" placeholder="Mother's Occupation" class="mother">
+        <input type="text" placeholder="Mother's Office Address" class="mother">
+        <input type="text" placeholder="Annual Income" class="mother">
+        <br>
+        <br>
+        <p>Religion</p>
+        <select name="Religion" id="Religion_1">
+            <option value="">---select a religion---</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Christian">Christian</option>
+            <option value="Jainism">Jainism</option>
+        </select>
+        <br>
+        <br>
+        <p>Category</p>
+        <select name="Category" id="Category_1">
+            <option value="">---select a category---</option>
+            <option value="General">General</option>
+            <option value="SC">SC</option>
+            <option value="ST">ST</option>
+            <option value="OBC">OBC</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="button" name="Next" value="Submit" class="next_button">
+        </form>
+    </div>
+</body>
+</html>
